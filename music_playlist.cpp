@@ -59,7 +59,7 @@ void play_current_song(const Song &song) {
     // Playing: followed by the song that is playing
    std::cout << "Playing: " <<  std::endl;
    std::cout << song << std::endl;
-    std::cout << "You implement this function"<< std::endl;
+    
 }
 
 void display_playlist(const std::list<Song> &playlist, const Song &current_song) {
@@ -70,7 +70,7 @@ void display_playlist(const std::list<Song> &playlist, const Song &current_song)
     }
     std::cout << "Current Song: " << std::endl;
     std::cout << current_song << std::endl;
-    std::cout << "You implement this function" << std::endl;
+    
 }
 
 int main() {
